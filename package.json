@@ -1,0 +1,26 @@
+{
+  "name": "KOA",
+  "version": "1.0.0",
+  "description": "Node.js Koa Starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/Index.js"
+  },
+  "keywords": [ "nodejs", "koa", "starter" ],
+  "author": "Andrei Gaspar",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.10.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.50",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.0.42"
+  }
+}
